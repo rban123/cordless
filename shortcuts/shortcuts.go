@@ -96,13 +96,13 @@ var (
 	ExitApplication = addShortcut("exit_application", "Exit application",
 		globalScope, tcell.NewEventKey(tcell.KeyCtrlC, rune(tcell.KeyCtrlC), tcell.ModCtrl))
 
-	FocusChannelContainer = addShortcut("focus_channel_container", "Focus server container",
+	FocusChannelContainer = addShortcut("focus_channel_container", "Focus servers container",
 		globalScope, tcell.NewEventKey(tcell.KeyRune, 'c', tcell.ModAlt))
 	FocusUserContainer = addShortcut("focus_user_container", "Focus user container",
 		globalScope, tcell.NewEventKey(tcell.KeyRune, 'u', tcell.ModAlt))
 	FocusGuildContainer = addShortcut("focus_guild_container", "Focus guild container",
 		globalScope, tcell.NewEventKey(tcell.KeyRune, 's', tcell.ModAlt))
-	FocusPrivateChatPage = addShortcut("focus_private_chat_page", "Focus private chat page",
+	FocusPrivateChatPage = addShortcut("focus_private_chat_page", "Focus direct messages page",
 		globalScope, tcell.NewEventKey(tcell.KeyRune, 'p', tcell.ModAlt))
 	SwitchToPreviousChannel = addShortcut("switch_to_previous_channel", "Switch to previous channel",
 		globalScope, tcell.NewEventKey(tcell.KeyRune, 'l', tcell.ModAlt))
