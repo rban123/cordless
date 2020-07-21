@@ -96,7 +96,7 @@ var (
 	ExitApplication = addShortcut("exit_application", "Exit application",
 		globalScope, tcell.NewEventKey(tcell.KeyCtrlC, rune(tcell.KeyCtrlC), tcell.ModCtrl))
 
-	FocusChannelContainer = addShortcut("focus_channel_container", "Focus channel container",
+	FocusChannelContainer = addShortcut("focus_channel_container", "Focus server container",
 		globalScope, tcell.NewEventKey(tcell.KeyRune, 'c', tcell.ModAlt))
 	FocusUserContainer = addShortcut("focus_user_container", "Focus user container",
 		globalScope, tcell.NewEventKey(tcell.KeyRune, 'u', tcell.ModAlt))
